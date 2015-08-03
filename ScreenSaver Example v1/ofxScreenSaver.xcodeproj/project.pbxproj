@@ -15,6 +15,7 @@
 		2EBB52601891D76B0009E903 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBB525F1891D76B0009E903 /* preview.png */; };
 		2EBDE1201891AE0D00147935 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBDE11F1891AE0D00147935 /* GLUT.framework */; };
 		2EBDE1221891AE7D00147935 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EBDE11F1891AE0D00147935 /* GLUT.framework */; };
+		476349E61B7027C600738A70 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476349E51B7027C600738A70 /* CoreVideo.framework */; };
 		532857EA14E9E5C200DBC7B1 /* testApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 532857E914E9E5C200DBC7B1 /* testApp.mm */; };
 		532857F714E9E5E800DBC7B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 532857EC14E9E5E800DBC7B1 /* InfoPlist.strings */; };
 		532857F814E9E5E800DBC7B1 /* ofxScreenSaverGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 532857EE14E9E5E800DBC7B1 /* ofxScreenSaverGLView.h */; };
@@ -123,6 +124,7 @@
 		2EBB525F1891D76B0009E903 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = preview.png; path = bin/data/preview.png; sourceTree = "<group>"; };
 		2EBDE11F1891AE0D00147935 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		2EBDE1231891AF1300147935 /* Screensaver.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Screensaver.xcconfig; sourceTree = "<group>"; };
+		476349E51B7027C600738A70 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		532857E914E9E5C200DBC7B1 /* testApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = testApp.mm; path = src/testApp.mm; sourceTree = "<group>"; };
 		532857ED14E9E5E800DBC7B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		532857EE14E9E5E800DBC7B1 /* ofxScreenSaverGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxScreenSaverGLView.h; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476349E61B7027C600738A70 /* CoreVideo.framework in Frameworks */,
 				5366885A14FE870100EDA80A /* openFrameworksDebug.a in Frameworks */,
 				5366885B14FE870900EDA80A /* AGL.framework in Frameworks */,
 				5366885C14FE870F00EDA80A /* ApplicationServices.framework in Frameworks */,
@@ -280,6 +283,7 @@
 		EA1A4C3414B74A310090BC2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				476349E51B7027C600738A70 /* CoreVideo.framework */,
 				2EBB52541891C1380009E903 /* openFrameworksNoFMOD.a */,
 				2EBDE11E1891ADE500147935 /* 3rd Party Frameworks */,
 				EA1A4C3914B74A310090BC2B /* Other Frameworks */,
