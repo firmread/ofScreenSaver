@@ -554,7 +554,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/OpenFrameworks/of_v0.8.0_osx_64/libs/glut/lib/osx",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_AUTO_VECTORIZATION = YES;
@@ -600,7 +600,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/OpenFrameworks/of_v0.8.0_osx_64/libs/glut/lib/osx",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_AUTO_VECTORIZATION = YES;
@@ -701,10 +701,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "ScreenSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/OpenFrameworks/of_v0.8.0_osx_64/libs/openFrameworksCompiled/lib/osx",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.9;
@@ -730,10 +727,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "ScreenSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/OpenFrameworks/of_v0.8.0_osx_64/libs/openFrameworksCompiled/lib/osx",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.9;
