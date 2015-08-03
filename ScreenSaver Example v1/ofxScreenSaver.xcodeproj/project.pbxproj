@@ -13,6 +13,11 @@
 		2EBDE1201891AE0D00147935 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBDE11F1891AE0D00147935 /* GLUT.framework */; };
 		2EBDE1221891AE7D00147935 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EBDE11F1891AE0D00147935 /* GLUT.framework */; };
 		476349E61B7027C600738A70 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476349E51B7027C600738A70 /* CoreVideo.framework */; };
+		476349F71B7035BB00738A70 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 476349F61B7035BB00738A70 /* ConfigureSheet.nib */; };
+		476349FC1B7035CD00738A70 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 476349F81B7035CD00738A70 /* icon.icns */; };
+		476349FD1B7035CD00738A70 /* of-scanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 476349F91B7035CD00738A70 /* of-scanner.png */; };
+		476349FE1B7035CD00738A70 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 476349FA1B7035CD00738A70 /* thumbnail.png */; };
+		476349FF1B7035CD00738A70 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476349FB1B7035CD00738A70 /* thumbnail@2x.png */; };
 		532857EA14E9E5C200DBC7B1 /* testApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 532857E914E9E5C200DBC7B1 /* testApp.mm */; };
 		532857F714E9E5E800DBC7B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 532857EC14E9E5E800DBC7B1 /* InfoPlist.strings */; };
 		532857F814E9E5E800DBC7B1 /* ofxScreenSaverGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 532857EE14E9E5E800DBC7B1 /* ofxScreenSaverGLView.h */; };
@@ -23,7 +28,6 @@
 		532857FE14E9E5E800DBC7B1 /* ofxScreenSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 532857F414E9E5E800DBC7B1 /* ofxScreenSaver.m */; };
 		532857FF14E9E5E800DBC7B1 /* ofxScreenSaverWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 532857F514E9E5E800DBC7B1 /* ofxScreenSaverWrapper.h */; };
 		5328580014E9E5E800DBC7B1 /* ofxScreenSaverWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 532857F614E9E5E800DBC7B1 /* ofxScreenSaverWrapper.mm */; };
-		5328580214E9E6C900DBC7B1 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5328580114E9E6C900DBC7B1 /* ConfigureSheet.nib */; };
 		5366885A14FE870100EDA80A /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1A4C5114B74A560090BC2B /* openFrameworksDebug.a */; };
 		5366885B14FE870900EDA80A /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1A4C7514B74F030090BC2B /* AGL.framework */; };
 		5366885C14FE870F00EDA80A /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1A4C7614B74F030090BC2B /* ApplicationServices.framework */; };
@@ -114,6 +118,11 @@
 		2EBDE11F1891AE0D00147935 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		2EBDE1231891AF1300147935 /* Screensaver.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Screensaver.xcconfig; sourceTree = "<group>"; };
 		476349E51B7027C600738A70 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		476349F61B7035BB00738A70 /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ConfigureSheet.nib; path = bin/data/ConfigureSheet.nib; sourceTree = "<group>"; };
+		476349F81B7035CD00738A70 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = bin/data/icon.icns; sourceTree = "<group>"; };
+		476349F91B7035CD00738A70 /* of-scanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "of-scanner.png"; path = "bin/data/of-scanner.png"; sourceTree = "<group>"; };
+		476349FA1B7035CD00738A70 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = bin/data/thumbnail.png; sourceTree = "<group>"; };
+		476349FB1B7035CD00738A70 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "bin/data/thumbnail@2x.png"; sourceTree = "<group>"; };
 		532857E914E9E5C200DBC7B1 /* testApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = testApp.mm; path = src/testApp.mm; sourceTree = "<group>"; };
 		532857ED14E9E5E800DBC7B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		532857EE14E9E5E800DBC7B1 /* ofxScreenSaverGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxScreenSaverGLView.h; sourceTree = "<group>"; };
@@ -124,7 +133,6 @@
 		532857F414E9E5E800DBC7B1 /* ofxScreenSaver.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ofxScreenSaver.m; sourceTree = "<group>"; };
 		532857F514E9E5E800DBC7B1 /* ofxScreenSaverWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxScreenSaverWrapper.h; sourceTree = "<group>"; };
 		532857F614E9E5E800DBC7B1 /* ofxScreenSaverWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxScreenSaverWrapper.mm; sourceTree = "<group>"; };
-		5328580114E9E6C900DBC7B1 /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ConfigureSheet.nib; path = bin/data/ConfigureSheet.nib; sourceTree = "<group>"; };
 		5366882914FE868100EDA80A /* ofxScreenSaverAppDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxScreenSaverAppDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5366887214FE8B3100EDA80A /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		53BDAB8914E9E1A6005DCF21 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = ../../../../../../System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<group>"; };
@@ -233,6 +241,10 @@
 		53DE86D514EEBA6600C39036 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				476349F81B7035CD00738A70 /* icon.icns */,
+				476349F91B7035CD00738A70 /* of-scanner.png */,
+				476349FA1B7035CD00738A70 /* thumbnail.png */,
+				476349FB1B7035CD00738A70 /* thumbnail@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -245,7 +257,7 @@
 				EA1A4C7114B74B790090BC2B /* Project.xcconfig */,
 				2EBDE1231891AF1300147935 /* Screensaver.xcconfig */,
 				53DE86D514EEBA6600C39036 /* Resources */,
-				5328580114E9E6C900DBC7B1 /* ConfigureSheet.nib */,
+				476349F61B7035BB00738A70 /* ConfigureSheet.nib */,
 				532857EB14E9E5E800DBC7B1 /* lib */,
 				EA1A4C9414B756CB0090BC2B /* src */,
 				2E331E7D14E19D47000D4C12 /* addons */,
@@ -434,10 +446,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476349F71B7035BB00738A70 /* ConfigureSheet.nib in Resources */,
+				476349FC1B7035CD00738A70 /* icon.icns in Resources */,
+				476349FE1B7035CD00738A70 /* thumbnail.png in Resources */,
+				476349FF1B7035CD00738A70 /* thumbnail@2x.png in Resources */,
 				EA1A4C5414B74A7D0090BC2B /* CoreOF.xcconfig in Resources */,
 				532857F714E9E5E800DBC7B1 /* InfoPlist.strings in Resources */,
 				2EBB52571891C3D10009E903 /* Screensaver.xcconfig in Resources */,
-				5328580214E9E6C900DBC7B1 /* ConfigureSheet.nib in Resources */,
+				476349FD1B7035CD00738A70 /* of-scanner.png in Resources */,
 				5366887314FE8B3100EDA80A /* openFrameworks-Info.plist in Resources */,
 				2E2C368F1759C567003679C0 /* ScreenSaver-Info.plist in Resources */,
 			);
@@ -642,6 +658,13 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(OF_CORE_HEADERS)",
+					../../../addons/libs,
+					../../../addons/src,
+					src,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -663,6 +686,13 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(OF_CORE_HEADERS)",
+					../../../addons/libs,
+					../../../addons/src,
+					src,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
@@ -683,6 +713,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lib/ofxScreenSaver-Prefix.pch";
 				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS_NO_FMOD)",
+					"$(OF_CORE_HEADERS)",
+					../../../addons/libs,
+					../../../addons/src,
+					src,
+				);
 				INFOPLIST_FILE = "ScreenSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -709,6 +746,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lib/ofxScreenSaver-Prefix.pch";
 				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS_NO_FMOD)",
+					"$(OF_CORE_HEADERS)",
+					../../../addons/libs,
+					../../../addons/src,
+					src,
+				);
 				INFOPLIST_FILE = "ScreenSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
