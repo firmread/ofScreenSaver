@@ -11,6 +11,7 @@
 #import <ScreenSaver/ScreenSaver.h>
 #import "ofxScreenSaverGLView.h"
 #import "ofxScreenSaverApp.h"
+#include "ofMain.h"
 
 
 @interface SCREEN_SAVER_BASE_CLASS : ScreenSaverView {

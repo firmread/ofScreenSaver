@@ -7,7 +7,6 @@
 //
 //  Additions / Modifications by Nick Hardeman.
 
-
 #import <ScreenSaver/ScreenSaver.h>
 #import "ofxScreenSaverGLView.h"
 

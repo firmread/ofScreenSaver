@@ -22,10 +22,10 @@
 		2E1C3FBF18931B3600D584E3 /* ofxScreenSaverWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C3FB318931B3600D584E3 /* ofxScreenSaverWindow.cpp */; };
 		2E1C3FC018931B3600D584E3 /* ofxScreenSaverWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1C3FB418931B3600D584E3 /* ofxScreenSaverWindow.h */; };
 		2E2C368F1759C567003679C0 /* ScreenSaver-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E2C368E1759C567003679C0 /* ScreenSaver-Info.plist */; };
-		2EBB52561891C3C10009E903 /* openFrameworksNoFMODDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBB52521891BD090009E903 /* openFrameworksNoFMODDebug.a */; };
 		2EBB52571891C3D10009E903 /* Screensaver.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2EBDE1231891AF1300147935 /* Screensaver.xcconfig */; };
 		2EBDE1201891AE0D00147935 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBDE11F1891AE0D00147935 /* GLUT.framework */; };
 		2EBDE1221891AE7D00147935 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EBDE11F1891AE0D00147935 /* GLUT.framework */; };
+		47634A031B703E5C00738A70 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47634A021B703E5C00738A70 /* CoreVideo.framework */; };
 		532857EA14E9E5C200DBC7B1 /* testApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 532857E914E9E5C200DBC7B1 /* testApp.mm */; };
 		5328580214E9E6C900DBC7B1 /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5328580114E9E6C900DBC7B1 /* ConfigureSheet.nib */; };
 		5366885A14FE870100EDA80A /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1A4C5114B74A560090BC2B /* openFrameworksDebug.a */; };
@@ -66,20 +66,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EBB524E1891BD090009E903 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA1A4C4C14B74A550090BC2B /* openFrameworksLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EBB51B21891BAEF0009E903;
-			remoteInfo = openFrameworksNoFMOD;
-		};
-		2EBB52511891BD090009E903 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA1A4C4C14B74A550090BC2B /* openFrameworksLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2EBB524A1891BAEF0009E903;
-			remoteInfo = openFrameworksNoFMOD;
-		};
 		5366888714FE901A00EDA80A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA1A4C4C14B74A550090BC2B /* openFrameworksLib.xcodeproj */;
@@ -148,6 +134,7 @@
 		2EBB52541891C1380009E903 /* openFrameworksNoFMOD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = openFrameworksNoFMOD.a; path = ../../../libs/openFrameworksCompiled/lib/osx/openFrameworksNoFMOD.a; sourceTree = "<group>"; };
 		2EBDE11F1891AE0D00147935 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		2EBDE1231891AF1300147935 /* Screensaver.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Screensaver.xcconfig; sourceTree = "<group>"; };
+		47634A021B703E5C00738A70 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		532857E914E9E5C200DBC7B1 /* testApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = testApp.mm; path = src/testApp.mm; sourceTree = "<group>"; };
 		5328580114E9E6C900DBC7B1 /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ConfigureSheet.nib; path = bin/data/ConfigureSheet.nib; sourceTree = "<group>"; };
 		5366882914FE868100EDA80A /* ofxScreenSaverAppDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxScreenSaverAppDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47634A031B703E5C00738A70 /* CoreVideo.framework in Frameworks */,
 				5366885A14FE870100EDA80A /* openFrameworksDebug.a in Frameworks */,
 				5366885B14FE870900EDA80A /* AGL.framework in Frameworks */,
 				5366885C14FE870F00EDA80A /* ApplicationServices.framework in Frameworks */,
@@ -203,7 +191,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EBB52561891C3C10009E903 /* openFrameworksNoFMODDebug.a in Frameworks */,
 				EA1A4C3614B74A310090BC2B /* Cocoa.framework in Frameworks */,
 				EA1A4C3814B74A310090BC2B /* ScreenSaver.framework in Frameworks */,
 				EA1A4C7D14B74F030090BC2B /* Cocoa.framework in Frameworks */,
@@ -297,6 +284,7 @@
 		EA1A4C3414B74A310090BC2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47634A021B703E5C00738A70 /* CoreVideo.framework */,
 				2EBB52541891C1380009E903 /* openFrameworksNoFMOD.a */,
 				2EBDE11E1891ADE500147935 /* 3rd Party Frameworks */,
 				EA1A4C3914B74A310090BC2B /* Other Frameworks */,
@@ -331,7 +319,6 @@
 			isa = PBXGroup;
 			children = (
 				EA1A4C5114B74A560090BC2B /* openFrameworksDebug.a */,
-				2EBB52521891BD090009E903 /* openFrameworksNoFMODDebug.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -410,7 +397,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2EBB524F1891BD090009E903 /* PBXTargetDependency */,
 			);
 			name = ofxScreenSaver;
 			productName = ofxScreensaver;
@@ -423,7 +409,7 @@
 		EA1A4C2714B74A310090BC2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0640;
 			};
 			buildConfigurationList = EA1A4C2A14B74A310090BC2B /* Build configuration list for PBXProject "ofxScreenSaver" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -450,13 +436,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2EBB52521891BD090009E903 /* openFrameworksNoFMODDebug.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = openFrameworksNoFMODDebug.a;
-			remoteRef = 2EBB52511891BD090009E903 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		EA1A4C5114B74A560090BC2B /* openFrameworksDebug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -551,11 +530,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2EBB524F1891BD090009E903 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = openFrameworksNoFMOD;
-			targetProxy = 2EBB524E1891BD090009E903 /* PBXContainerItemProxy */;
-		};
 		5366888814FE901A00EDA80A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = openFrameworks;
@@ -584,7 +558,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/OpenFrameworks/of_v0.8.0_osx_64/libs/glut/lib/osx",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_AUTO_VECTORIZATION = YES;
@@ -606,7 +580,7 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
@@ -631,7 +605,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/OpenFrameworks/of_v0.8.0_osx_64/libs/glut/lib/osx",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_AUTO_VECTORIZATION = YES;
@@ -654,7 +628,7 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
@@ -679,7 +653,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -707,7 +680,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -729,11 +701,17 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../libs/glut/lib/osx\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ofxScreenSaver/ofxScreenSaver-Prefix.pch";
 				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS_NO_FMOD)",
+					"$(OF_CORE_HEADERS)",
+					../../../addons/libs,
+					../../../addons/src,
+					src,
+				);
 				INFOPLIST_FILE = "ScreenSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LIBRARY_SEARCH_PATHS = (
@@ -742,7 +720,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.9;
 				STRIP_INSTALLED_PRODUCT = YES;
 				WRAPPER_EXTENSION = saver;
 			};
@@ -759,11 +737,17 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../libs/glut/lib/osx\"",
 				);
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ofxScreenSaver/ofxScreenSaver-Prefix.pch";
 				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS_NO_FMOD)",
+					"$(OF_CORE_HEADERS)",
+					../../../addons/libs,
+					../../../addons/src,
+					src,
+				);
 				INFOPLIST_FILE = "ScreenSaver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LIBRARY_SEARCH_PATHS = (
@@ -772,7 +756,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.9;
 				STRIP_INSTALLED_PRODUCT = YES;
 				WRAPPER_EXTENSION = saver;
 			};

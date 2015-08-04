@@ -152,12 +152,12 @@ void ofxScreenSaverWindow::display() {
     
 	// set viewport, clear the screen
 	ofViewport();		// used to be glViewport( 0, 0, width, height );
-	float * bgPtr = ofBgColorPtr();
+	ofColor bgColor = ofGetBackgroundColor();
 	bool bClearAuto = ofbClearBg();
     
     
 	if ( bClearAuto == true || ofGetFrameNum() < 3){
-		ofClear(bgPtr[0]*255,bgPtr[1]*255,bgPtr[2]*255, bgPtr[3]*255);
+		ofClear(bgColor.r,bgColor.g,bgColor.b, bgColor.a);
 	}
     
 	if( bEnableSetupScreen )ofSetupScreen();
@@ -168,7 +168,7 @@ void ofxScreenSaverWindow::display() {
     if (bClearAuto == false){
         // in accum mode resizing a window is BAD, so we clear on resize events.
         if (nFramesSinceWindowResized < 3){
-            ofClear(bgPtr[0]*255,bgPtr[1]*255,bgPtr[2]*255, bgPtr[3]*255);
+            ofClear(bgColor.r,bgColor.g,bgColor.b, bgColor.a);
         }
     }
     

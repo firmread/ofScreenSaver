@@ -66,7 +66,7 @@ void testApp::draw() {
 //    NSLog(@"testApp :: draw : %i", ofGetElapsedTimeMillis() );
     
     ofSetColor(0, 0, 0);
-    ofCircle( 0, 0, 20);
+    ofCircle( ofGetMouseX(), ofGetMouseY(), 20);
     
     bFirstDraw = false;
     
